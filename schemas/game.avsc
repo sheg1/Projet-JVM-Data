@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "Game",
+  "namespace": "fr.uha.jvm.model",
+  "fields": [
+    { "name": "name", "type": "string" },
+    { "name": "platform", "type": "string" },
+    { "name": "year", "type": ["int", "null"] },
+    { "name": "genre", "type": "string" },
+    { "name": "publisher", "type": "string" },
+    { "name": "na_sales", "type": "float", "default": 0.0 },
+    { "name": "eu_sales", "type": "float", "default": 0.0 },
+    { "name": "jp_sales", "type": "float", "default": 0.0 },
+    { "name": "other_sales", "type": "float", "default": 0.0 },
+    { "name": "global_sales", "type": "float", "default": 0.0 },
+    { "name": "version", "type": "string", "default": "1.0.0" },
+    { "name": "is_early_access", "type": "boolean", "default": false }
+  ]
+}
